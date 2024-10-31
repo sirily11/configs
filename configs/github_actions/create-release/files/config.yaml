@@ -1,0 +1,13 @@
+files:
+  config.yaml:
+    title: Github Actions Config for creating a release
+    description: |
+      This is the configuration file for the Github Actions workflow that creates a release.
+    output:
+      path: .github/workflows/release.yml
+  releaserc:
+    title: Semantic Release Configuration
+    description: |
+      This is the configuration file for the semantic release tool.
+    output:
+      path: .releaserc
